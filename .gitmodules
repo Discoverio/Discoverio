@@ -1,0 +1,6 @@
+[submodule "Backend"]
+	path = Backend
+	url = https://github.com/Discoverio/Backend.git
+[submodule "FrontEnd"]
+	path = FrontEnd
+	url = https://github.com/Discoverio/FrontEnd.git
