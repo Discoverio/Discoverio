@@ -22,6 +22,17 @@ services:
       ME_CONFIG_MONGODB_SERVER: mongodb
     depends_on:
       - mongodb
+  
+  backend:
+    build: Backend/.
+    ports: 
+    - 3006:3006
+
+  frontend:
+    build: FrontEnd/.
+    ports:
+    - 19000:19000
+
 networks:
   default:
     name: mongo-express-network
